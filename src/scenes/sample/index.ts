@@ -1,1 +1,1 @@
-export { default } from './SamplePage';
+export { default } from './SamplePageView';

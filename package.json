@@ -1,8 +1,8 @@
 {
-  "name": "react-starter-kit",
+  "name": "react-ts-starter-kit",
   "author": "Andrii Prashcharuk",
-  "version": "2.5.0",
-  "description": "React Starter Kit",
+  "version": "1.0.0",
+  "description": "React Starter Kit on Typescript",
   "main": "src/index.tsx",
   "dependencies": {
     "@emotion/react": "11.1.4",
