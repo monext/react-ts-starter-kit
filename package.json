@@ -1,7 +1,7 @@
 {
   "name": "react-ts-starter-kit",
   "author": "Andrii Prashcharuk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Starter Kit on Typescript",
   "main": "src/index.tsx",
   "dependencies": {
@@ -60,10 +60,7 @@
     "test": "jest"
   },
   "jest": {
-    "testEnvironment": "node",
-    "roots": [
-      "test/javascript"
-    ]
+    "testEnvironment": "node"
   },
   "browserslist": [
     "defaults"
