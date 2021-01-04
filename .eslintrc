@@ -1,0 +1,50 @@
+{
+  "extends": [
+      "eslint-config-airbnb",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+  ],
+  "globals": {
+    "chrome": true
+  },
+  "rules": {
+    "import/extensions": [
+        "error",
+        "ignorePackages",
+      {
+        "js": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "no-restricted-globals": 0,
+    "import/prefer-default-export": "off",
+    "react/prop-types": 0,
+    "react/destructuring-assignment": 0,
+    "no-plusplus": 0,
+    "react/jsx-filename-extension": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    "indent": ["error", 4, { "SwitchCase": 1 }],
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".tsx", ".ts"]
+      }
+    }
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+      "@typescript-eslint/eslint-plugin"
+  ]
+}
