@@ -1,4 +1,4 @@
-# React Starter Kit
+# React Starter Kit in Typescript
 
 This is a React App boilerplate in Typescript. Uses Redux-Saga, emotion, and jest unit tests.
 
