@@ -1,14 +1,13 @@
 {
   "name": "react-ts-starter-kit",
   "author": "Andrii Prashcharuk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Starter Kit on Typescript",
   "main": "src/index.tsx",
   "dependencies": {
     "@emotion/react": "11.1.4",
     "@emotion/styled": "11.0.0",
     "axios": "0.21.1",
-    "classnames": "2.2.6",
     "emotion-normalize": "11.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",

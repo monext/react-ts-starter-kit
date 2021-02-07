@@ -4,9 +4,9 @@ import { jsx, css, Global } from '@emotion/react';
 import emotionNormalize from 'emotion-normalize';
 import { Provider } from 'react-redux';
 import { BrowserRouter, Route } from 'react-router-dom';
-import NavView from '../components/Nav';
-import HomePageView from './home';
-import SamplePageView from './sample';
+import Nav from '../components/Nav';
+import HomePage from './home';
+import SamplePage from './sample';
 import getStore from '../utils/getStore';
 
 const store = getStore();
@@ -33,11 +33,11 @@ const AppLayout = (): JSX.Element => (
                       `}
                 />
                 <header>
-                    <NavView />
+                    <Nav />
                 </header>
                 <main>
-                    <Route path="/" exact component={HomePageView} />
-                    <Route path="/sample" component={SamplePageView} />
+                    <Route path="/" exact component={HomePage} />
+                    <Route path="/sample" component={SamplePage} />
                 </main>
             </div>
         </BrowserRouter>

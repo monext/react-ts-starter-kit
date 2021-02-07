@@ -5,7 +5,7 @@ import { Action } from '../../types';
 describe('sample tests', () => {
     describe('check init values', () => {
         test('sets data to an empty List', () => {
-            expect(initialState.data).toEqual([]);
+            expect(initialState.data).toEqual(null);
         });
 
         test('sets isFetching to false', () => {

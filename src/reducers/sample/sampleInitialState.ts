@@ -1,13 +1,13 @@
 import type { DataItem } from '../../types';
 
 export type SampleState = {
-    data: DataItem[],
+    data: DataItem[] | null,
     isFetching: boolean,
     error: string | null,
 };
 
 const initialState: SampleState = {
-    data: [],
+    data: null,
     isFetching: false,
     error: null,
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './scenes/AppView';
+import App from './scenes/App';
 
 const root = document.getElementById('root');
 

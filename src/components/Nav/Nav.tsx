@@ -16,7 +16,7 @@ const ListItem = styled.li`
   display: block;
 `;
 
-const NavView = (): JSX.Element => (
+const Nav = (): JSX.Element => (
     <nav
         css={{
             padding: 10,
@@ -33,4 +33,4 @@ const NavView = (): JSX.Element => (
     </nav>
 );
 
-export default NavView;
+export default Nav;
